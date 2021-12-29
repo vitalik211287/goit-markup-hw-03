@@ -144,12 +144,14 @@ section {
 .hero {
   background: #2f303a;
   height: 600px;
+  padding: 0;
 }
 
 .container-btn {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 200px;
 }
 
 button {
@@ -283,21 +285,16 @@ button {
 }
 
 /*footer*/
+.address-tittle {
+  margin-bottom: 9px;
+  height: 21px;
+}
 
 .footer-background {
   background: #2f303a;
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
-  box-sizing: border-box;
-}
-
-.address-list {
-  margin-top: 20px;
-  min-height: 81px;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
 }
 
 .footer-logo {
@@ -308,6 +305,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--background-color);
   display: flex;
+  margin-bottom: 20px;
 }
 
 .footer-logo-web {
@@ -319,6 +317,9 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-link {
   color: var(--background-color);
 }
 
