@@ -194,7 +194,8 @@ button {
 
 .our-team-list {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
   justify-content: space-between;
 }
 
