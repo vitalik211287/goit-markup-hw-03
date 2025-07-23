@@ -7,6 +7,35 @@
   --focus-color: #404bbf;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: var(--background-color);
@@ -18,6 +47,7 @@ address {
 }
 
 button {
+  all: unset;
   cursor: pointer;
   font: inherit;
   color: inherit;
@@ -87,6 +117,8 @@ button {
 
 .hero {
   background: var(--h-color);
+  text-align: center;
+  padding: 188px 472px 188px 472px;
 }
 
 .hero-title {
@@ -96,6 +128,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-color);
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -105,6 +138,16 @@ button {
   letter-spacing: 0.04em;
   color: var(--background-color);
   background: #4d5ae5;
+  min-width: 169;
+  text-align: center;
+  /* height: 56; */
+  /* top: 428px;
+  left: 636px; */
+  /* angle: 0 deg; */
+  /* opacity: 1; */
+  padding: 16px 32px 16px 32px;
+  /* gap: 10px; */
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -114,25 +157,45 @@ button {
 
 /*advantage */
 
+.advantage-invisible {
+  display: none;
+  justify-content: space-between;
+  margin-left: 8px;
+}
+
+.advantage {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--h-color);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .advantage-after-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraph-color);
+  max-width: 264px;
 }
 
 /*our_team*/
 
 .our-team {
   background-color: var(--logo-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .our-team-title {
@@ -143,6 +206,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--h-color);
+  margin-bottom: 72px;
 }
 
 .subtitle {
@@ -159,8 +223,27 @@ button {
   color: var(--paragraph- color);
 }
 
-.team-list{
-  background-color: var(--background-color)
+.team-list {
+  background-color: var(--background-color);
+  width: fit-content;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.team-card {
+  text-align: center;
+  padding: 32px 16px 32px 16px;
+}
+
+.subtitle {
+  margin-bottom: 8px;
+}
+
+/* our portfolio */
+
+.our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*footer*/
@@ -184,4 +267,5 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+  width: 264px;
 }
