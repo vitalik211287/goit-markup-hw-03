@@ -68,6 +68,22 @@ button {
   background: var(--background-color);
 }
 
+.header-nav {
+ display: inline-block;
+   display: flex;
+
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-header {
+  display: flex;
+  
+}
+
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -76,6 +92,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--h-color);
+}
+
+.header-item {
+  display: block;
+  box-sizing: border-box;
 }
 
 .header-logo {
@@ -100,6 +121,11 @@ button {
   color: var(--focus-color);
 }
 
+/* .header-list {
+  display: flex;
+  justify-content: space-between;
+} */
+
 .header-address {
   font-weight: 400;
   font-size: 16px;
@@ -118,7 +144,7 @@ button {
 .hero {
   background: var(--h-color);
   text-align: center;
-  padding: 188px 472px 188px 472px;
+  padding: 188px 0 188px 0;
 }
 
 .hero-title {
@@ -166,12 +192,11 @@ button {
 .advantage {
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
 
-.advantage-list{
+.advantage-list {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .advantage-title {
@@ -275,6 +300,7 @@ button {
 
 .footer-background {
   background: var(--h-color);
+  padding: 100px 0 100px 0;
 }
 
 .footer-logo-studio {
@@ -293,4 +319,5 @@ button {
   letter-spacing: 0.02em;
   color: var(--logo-color);
   width: 264px;
+  margin-top: 16px;
 }
