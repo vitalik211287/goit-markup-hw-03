@@ -50,9 +50,9 @@ main {
   max-width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* box-sizing: border-box; */
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 body {
@@ -102,8 +102,8 @@ button {
 
 /* header*/
 
-.flex-header{
- border-bottom: 1px solid #e7e9fc;
+.flex-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -116,7 +116,6 @@ button {
   padding-bottom: 24px;
   flex-wrap: wrap;
   margin: 0 auto;
- 
 }
 
 .header {
@@ -149,7 +148,6 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--h-color);
-  margin-right: 76px
 }
 
 .header-item {
@@ -166,6 +164,7 @@ button {
   letter-spacing: 0.03em;
   display: inline-block;
   color: var(--accent-color);
+  margin-right: 76px;
 }
 
 .header-link {
@@ -220,7 +219,11 @@ button {
 }
 
 .hero-container {
-  margin-left: 352px;
+  /* margin-left: 352px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-btn {
@@ -232,12 +235,12 @@ button {
   letter-spacing: 0.04em;
   color: var(--background-color);
   background: #4d5ae5;
-  text-align: center;
+  /* text-align: center; */
   min-width: 169px;
   height: 56px;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
-  margin-left: 164px;
+  /* margin-left: 164px; */
 }
 
 .hero-btn:hover,
