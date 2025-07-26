@@ -63,26 +63,39 @@ button {
 }
 
 /* header*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 80px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header {
   background: var(--background-color);
 }
 
 .header-nav {
- display: inline-block;
-   display: flex;
-
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-list {
   display: flex;
-  justify-content: space-around;
+  gap: 40px;
 }
 
-.flex-header {
+.address-list {
   display: flex;
-  
+  gap: 40px;
 }
+
+/* .flex-header {
+display: inline-block;
+  
+} */
 
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -121,10 +134,10 @@ button {
   color: var(--focus-color);
 }
 
-/* .header-list {
+.header-list {
   display: flex;
-  justify-content: space-between;
-} */
+  gap: 40px;
+}
 
 .header-address {
   font-weight: 400;
