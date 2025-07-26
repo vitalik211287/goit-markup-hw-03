@@ -238,7 +238,6 @@ button {
 
 /*advantage */
 
-
 .advantage-list {
   display: flex;
   flex-wrap: wrap;
@@ -270,9 +269,7 @@ button {
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .our-team-title {
