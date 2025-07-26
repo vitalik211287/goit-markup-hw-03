@@ -102,6 +102,10 @@ button {
 
 /* header*/
 
+.flex-header{
+ border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   width: 1158px;
   padding: 0 15px;
@@ -112,7 +116,7 @@ button {
   padding-bottom: 24px;
   flex-wrap: wrap;
   margin: 0 auto;
-  border-bottom: 1px solid #e7e9fc;
+ 
 }
 
 .header {
