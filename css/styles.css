@@ -91,12 +91,15 @@ button {
 /* header*/
 
 .header-container {
+  width: 1158px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -197,6 +200,8 @@ button {
 }
 
 .hero-btn {
+  box-sizing: border-box;
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -204,6 +209,8 @@ button {
   color: var(--background-color);
   background: #4d5ae5;
   text-align: center;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
 }
