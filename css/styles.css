@@ -50,8 +50,8 @@ main {
   max-width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* box-sizing: border-box; */
 }
 
@@ -104,14 +104,14 @@ button {
 
 .header-container {
   width: 1158px;
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -214,8 +214,8 @@ button {
   margin-bottom: 48px;
 }
 
-.hero-container{
-    margin-left: 352px;
+.hero-container {
+  margin-left: 352px;
 }
 
 .hero-btn {
