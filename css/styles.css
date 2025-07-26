@@ -75,6 +75,19 @@ button {
   background-color: transparent;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -222,11 +235,11 @@ button {
 
 /*advantage */
 
-.advantage-invisible {
+/* .advantage-invisible {
   display: none;
   justify-content: space-between;
   margin-left: 8px;
-}
+} */
 
 .advantage-list {
   display: flex;
