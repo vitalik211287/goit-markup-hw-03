@@ -306,7 +306,7 @@ button {
 
 .team-list {
   background-color: var(--background-color);
-  border-radius: 4px;
+   border-radius: 0px 0px 4px 4px;;
   box-shadow: 0px 2px 4px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16);
 }
