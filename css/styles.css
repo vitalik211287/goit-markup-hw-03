@@ -200,7 +200,7 @@ button {
 .hero {
   background: var(--h-color);
   text-align: center;
-  padding: 188px 0 188px 472px;
+  padding: 188px 0 188px 0px;
 }
 
 .hero-title {
@@ -212,6 +212,10 @@ button {
   letter-spacing: 0.02em;
   color: var(--background-color);
   margin-bottom: 48px;
+}
+
+.hero-container{
+    margin-left: 352px;
 }
 
 .hero-btn {
