@@ -159,8 +159,10 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  display: inline-block;
   color: var(--accent-color);
 }
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -325,12 +327,11 @@ button {
 
 /* our portfolio */
 
-
 .portfolio-list {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
-  /* flex-direction: row; */ */
+  /* flex-direction: row; */
   /* justify-content: space-between; */
   /* flex-wrap: wrap; */
 }
@@ -355,6 +356,18 @@ button {
 
 /*footer*/
 
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  color: var(--accent-color);
+  margin-bottom: 16px;
+}
+
 .footer-background {
   background: var(--h-color);
   padding: 100px 0 100px 0;
@@ -376,5 +389,4 @@ button {
   letter-spacing: 0.02em;
   color: var(--logo-color);
   width: 264px;
-  margin-top: 16px;
 }
