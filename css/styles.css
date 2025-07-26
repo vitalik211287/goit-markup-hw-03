@@ -145,6 +145,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--h-color);
+  margin-right: 76px
 }
 
 .header-item {
