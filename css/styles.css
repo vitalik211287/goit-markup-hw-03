@@ -200,10 +200,11 @@ button {
 .hero {
   background: var(--h-color);
   text-align: center;
-  padding: 188px 0 188px 0;
+  padding: 188px 0 188px 472px;
 }
 
 .hero-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -216,7 +217,6 @@ button {
 .hero-btn {
   display: block;
   box-sizing: border-box;
-  /* display: inline-block; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -228,6 +228,7 @@ button {
   height: 56px;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
+  margin-left: 164px;
 }
 
 .hero-btn:hover,
@@ -237,16 +238,10 @@ button {
 
 /*advantage */
 
-/* .advantage-invisible {
-  display: none;
-  justify-content: space-between;
-  margin-left: 8px;
-} */
 
 .advantage-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   gap: 24px;
 }
 
