@@ -117,10 +117,6 @@ button {
   margin: 0 auto;
 }
 
-.xxxxxxxx {
-  display: flex;
-}
-
 /* Логотип */
 .header-logo {
   display: inline-block;
