@@ -102,50 +102,37 @@ button {
 
 /* header*/
 
+/* Стиль хедера */
 .flex-header {
   border-bottom: 1px solid #e7e9fc;
+  background-color: var(--background-color);
 }
 
+/* Контейнер */
 .header-container {
-  /* padding-left: 156px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1158px;
   padding: 0 15px;
-  display: flex; 
-  align-items: center;
-  justify-content: flex-start;
-  /* align-items: center; */
-  /* padding: 0px 15px 0px 15px; */
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
-  /* padding: 24px 0 24px 0; */
-  flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.header {
-  background: var(--background-color);
-}
-
-.header-nav {
-  /* display: flex; */
-  /* align-items: center; */
-  /* gap: 40px;
-  flex-wrap: wrap; */
-}
-
-.header-list {
-  /* display: flex;
-  gap: 40px; */
-  /* margin-left: 320px; */
-  /* padding: 24px 0; */
-  /* padding: 24px 0 24px; */
-}
-
-.address-list {
+.xxxxxxxx {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-left: 319px;
+}
+
+/* Логотип */
+.header-logo {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -158,50 +145,65 @@ button {
   color: var(--h-color);
 }
 
+/* Навігація */
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Список навігації */
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+/* Пункти навігації */
 .header-item {
   display: block;
-  box-sizing: border-box;
-  padding: 24px 0 24px 0;
 }
 
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  display: inline-block;
-  color: var(--accent-color);
-  margin-right: 76px;
-}
-
+/* Посилання */
 .header-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--h-color);
+  /* padding: 24px 0; */
+  transition: color 250ms ease;
 }
+
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
   color: var(--focus-color);
 }
 
-.header-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
+/* Адреса */
 .header-address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraph-color);
+  padding: 24px 0 24px 0;
 }
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* .header-address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-color);
+  transition: color 250ms ease;
+} */
 
 .header-address:hover,
 .header-address:focus {
