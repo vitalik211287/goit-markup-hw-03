@@ -164,7 +164,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--h-color);
-  /* padding: 24px 0; */
+  padding: 24px 0;
   /* transition: color 250ms ease; */
 }
 
