@@ -112,8 +112,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   flex-wrap: wrap;
   margin: 0 auto;
 }
@@ -153,6 +153,7 @@ button {
 .header-item {
   display: block;
   box-sizing: border-box;
+  padding: 24px 0;
 }
 
 .header-logo {
