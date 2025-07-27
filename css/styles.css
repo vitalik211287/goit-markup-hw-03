@@ -156,8 +156,8 @@ button {
 .header-item {
   display: block;
   box-sizing: border-box;
-    /* padding: 24px 0 24px;
-} */
+    /* /* padding: 24px 0 24px; */
+} 
 
 .header-logo {
   font-family: "Raleway", sans-serif;
