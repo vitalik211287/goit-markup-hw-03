@@ -112,9 +112,10 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px 0 15px;
+  padding: 24px 15px 24px 15px;
   /* padding-top: 24px;
   padding-bottom: 24px; */
+  /* padding: 24px 0 24px 0; */
   flex-wrap: wrap;
   margin: 0 auto;
 }
@@ -156,7 +157,7 @@ button {
 .header-item {
   display: block;
   box-sizing: border-box;
-  padding: 24px 0 24px 0;
+  /* padding: 24px 0 24px 0; */
 }
 
 .header-logo {
@@ -168,7 +169,7 @@ button {
   letter-spacing: 0.03em;
   display: inline-block;
   color: var(--accent-color);
-  margin-right: 76px;
+  /* margin: 0 76px 0 0px ; */
 }
 
 .header-link {
