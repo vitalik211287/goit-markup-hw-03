@@ -159,14 +159,13 @@ button {
 
 /* Посилання */
 .header-link {
-  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--h-color);
   /* padding: 24px 0; */
-  transition: color 250ms ease;
+  /* transition: color 250ms ease; */
 }
 
 .header-link:hover,
