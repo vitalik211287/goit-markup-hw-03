@@ -108,10 +108,11 @@ button {
 
 .header-container {
   width: 1158px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px 0 15px;
   /* padding-top: 24px;
   padding-bottom: 24px; */
   flex-wrap: wrap;
